@@ -5,4 +5,8 @@ local channels = tsc:WaitForChild("TextChannels")
 
 local general = channels:WaitForChild("RBXGeneral")
 
-general:SendAsync("e")
+general:SendAsync("daddy")
+wait(0.1)
+general:SendAsync("goon in me please!")
+wait(0.1)
+general:SendAsync("i beg you dadddddyyyy")
