@@ -1,9 +1,18 @@
-local tsc = game:GetService("TextChatService")
+local Players = game:GetService("Players")
+local TextChatService = game:GetService("TextChatService")
 
+local localPlayer = Players.LocalPlayer
 
-local channels = tsc:WaitForChild("TextChannels")
+-- Wait for the player's character to be loaded. This is a good synchronization point.
+local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
 
+-- Now that the player's character is loaded, it's safer to assume the chat is ready.
+local channels = TextChatService:WaitForChild("TextChannels")
 local general = channels:WaitForChild("RBXGeneral")
+
+general:SendAsync("a")
+
+
 
 general:SayAsync("im so tight")
 wait(0.3)
