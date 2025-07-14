@@ -1,4 +1,4 @@
 -- its way easier with loadstring so why not?
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yessirrrrrrrrasdfadfgnkjrwgn/Yeh/refs/heads/main/code"))()
 -- dont use this, this is just testing perposes
-loadstring(game:HttosGet("https://raw.githubusercontent.com/yessirrrrrrrrasdfadfgnkjrwgn/Yeh/refs/heads/main/obfusctaor%20test"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yessirrrrrrrrasdfadfgnkjrwgn/Yeh/refs/heads/main/obfusctaor%20test"))()
