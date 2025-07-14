@@ -1,4 +1,8 @@
-local tax = game:GetService("TextChatService") 
-local channels = tax:WaitForChild("TextChannels")
+local tsc = game:GetService("TextChatService")
+
+
+local channels = tsc:WaitForChild("TextChannels")
+
 local general = channels:WaitForChild("RBXGeneral")
-general:SendAsync("yes")
+
+general:SendAsync("e")
