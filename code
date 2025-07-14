@@ -1,3 +1,5 @@
+local TextChatService = game:GetService("TextChatService")
+
 local channels = TextChatService:WaitForChild("TextChannels")
 local general = channels:WaitForChild("RBXGeneral")
 
