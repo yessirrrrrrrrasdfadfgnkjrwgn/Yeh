@@ -3,7 +3,7 @@ local TextChatService = game:GetService("TextChatService")
 local channels = TextChatService:WaitForChild("TextChannels")
 local general = channels:WaitForChild("RBXGeneral")
 
-general:SendAsync("HELLO IT IS ME ".. localPlayer.DisplayName.."!")
+general:SendAsync("HELLO IT IS ME ".. localPlayer.Name.."!")
 wait(0.1)
 general:SendAsync("I just wanna say")
 wait(0.1)
